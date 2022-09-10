@@ -62,19 +62,19 @@ const Footer = () => {
                     <p className="font-bold uppercase">Subscribe to our newsletter</p>
                     <p className="py-4">The latest news, articles, and resources, sent to your inbox weekly.</p>
                     <form className="flex flex-col sm:flex-row ">
-                        <input className="w-fill p-2 mr-4 rounded-md mb-4" type="email" /> 
+                        <input className="w-full p-2 mr-4 rounded-md mb-4" type="email" /> 
                         <button className="p-2 mb-4">Subscribe</button>
                     </form>
                 </div>
             </div>
 
-            <div className="flex max-w-[1240px] m-auto justify-between items-center sm:flex-row text-center text-gray-500">
+            <div className="flex flex-col max-w-[1240px] m-auto justify-between items-center sm:flex-row text-center text-gray-500">
             <p>2022 Omid Pirdehi, MIT license</p>
-                <div className="flex justify-between  sm:w-[300px] pt-4 text-2xl">
-                    <FaTelegram />
-                    <FaInstagram />
-                    <FaGithub />
-                    <FaTwitter />
+                <div className="flex justify-between  sm:w-[300px] pt-4 text-2xl mb-10">
+                    <FaTelegram className="m-2"/>
+                    <FaInstagram className="m-2"/>
+                    <FaGithub className="m-2"/>
+                    <FaTwitter className="m-2"/>
                 </div>
             </div>
         </div>
